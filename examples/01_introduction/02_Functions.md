@@ -18,10 +18,10 @@ fun sum(x: Int, y: Int): Int {                                          // 3
 fun multiply(x: Int, y: Int) = x * y                                    // 4
 
 fun main() {
-    printMessage("Hello")                                               // 5                    
-    printMessageWithPrefix("Hello", "Log")                              // 6
-    printMessageWithPrefix("Hello")                                     // 7
-    printMessageWithPrefix(prefix = "Log", message = "Hello")           // 8
+    printMessage("Jessile")                                               // 5                    
+    printMessageWithPrefix("Jessile", "Log")                              // 6
+    printMessageWithPrefix("Jessile")                                     // 7
+    printMessageWithPrefix(prefix = "Log", message = "Jessile")           // 8
     println(sum(1, 2))                                                  // 9
     println(multiply(2, 4))                                             // 10
 }
